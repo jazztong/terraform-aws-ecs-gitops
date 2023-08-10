@@ -1,0 +1,5 @@
+aws-project:
+  name: "AWS-Project"
+
+terraform-project:
+  name: "Terraform-Project"

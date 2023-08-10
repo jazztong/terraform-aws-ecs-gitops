@@ -1,0 +1,23 @@
+aws-master:
+  name: "aws-master"
+  working_directory: "stacks/10-aws-master"
+  project_id: aws-project
+  vcs_repo:
+    identifier: <<replace-your-github-repo-identifier>>
+    branch: master
+
+aws-preprod:
+  name: "aws-preprod"
+  working_directory: "stacks/11-aws-preprod"
+  project_id: aws-project
+  vcs_repo:
+    identifier: <<replace-your-github-repo-identifier>>
+    branch: master
+
+aws-prod:
+  name: "aws-prod"
+  working_directory: "stacks/12-aws-prod"
+  project_id: aws-project
+  vcs_repo:
+    identifier: <<replace-your-github-repo-identifier>>
+    branch: master

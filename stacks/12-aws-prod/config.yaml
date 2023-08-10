@@ -1,0 +1,5 @@
+this:
+  stack_name: nginx-demo
+  tags:
+    env: prod
+    system: nginx

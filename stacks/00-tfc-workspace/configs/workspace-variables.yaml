@@ -1,0 +1,28 @@
+# aws-preprod:
+#   - key: TFC_AWS_PROVIDER_AUTH
+#     value: true
+#   - key: TFC_AWS_RUN_ROLE_ARN
+#     value: arn:aws:iam::<<replace-aws-master-account-number>>:role/tfc-role
+#   - key: aws_provision_id
+#     category: terraform
+#     value: <<replace-aws-preprod-account-number>>
+#   - key: aws_provision_role
+#     category: terraform
+#     value: OrganizationAccountAccessRole
+
+# aws-prod:
+#   - key: TFC_AWS_PROVIDER_AUTH
+#     value: true
+#   - key: TFC_AWS_RUN_ROLE_ARN
+#     value: arn:aws:iam::<<replace-aws-master-account-number>>:role/tfc-role
+#   - key: aws_provision_id
+#     category: terraform
+#     value: <<replace-aws-prod-account-number>>
+#   - key: aws_provision_role
+#     category: terraform
+#     value: OrganizationAccountAccessRole
+
+# aws-master:
+#   - key: tfc_organization_name
+#     category: terraform
+#     value: <<replace-terraform-organization-name>>

@@ -1,0 +1,5 @@
+this:
+  stack_name: lab
+  tags:
+    env: preprod
+    system: lab
